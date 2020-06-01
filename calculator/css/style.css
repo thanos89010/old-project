@@ -1,0 +1,63 @@
+othoni,.main,p{
+	border           : solid 2px grey;
+}
+.othoni,.calc,.main,table{
+	text-align       : center;
+	*display         : inline-block;
+	margin           : 0 auto;
+}
+button{
+	height           : 55px;
+    width        	 : 56px;
+    font-size    	 : 18px;
+    border       : solid 1px  rgb(49, 1, 78);
+    border-radius: 100%;
+	margin           : 3px 5px;
+	*background-color: rgb(49, 1, 78);
+	color            : white;
+	background-color : #161638;
+}
+.all{
+	margin-top       : 150px;
+}
+.calc span{
+	padding          : 55px;
+	display          : inline-block;	
+}
+.othoni span{
+	padding          : 5px 0;
+	display          : inline-block;
+	color            : white;
+	font-size        : 20px;
+}
+.calc{
+	background-color : #05061a;
+	*background-color: rgb(1, 1, 49);
+	position         : relative;
+}
+.othoni{
+	background-color : #131232;
+	*background-color: rgb(40, 1, 65);
+}
+.main{
+	*background-color: rgb(40, 1, 65);
+	background-color : #131232;
+}
+.bluelight{
+	border           : solid 1px  #16163865;;
+	background-color : #27275b;
+	*margin-left     : 18px;
+}
+.light{
+	background-color : #27275d;
+	margin           : -3px -13px -3px 7px;
+    padding      	 : 2px 6px;
+	display          : inline-block;
+}
+#number{
+	*position         : absolute;
+	color            : white;
+	top              : 40px;
+    left         	 : 190px;
+	font-size        : 30px;
+}

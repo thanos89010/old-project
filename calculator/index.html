@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML</title>
+	<meta charset="utf-8" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/layout.css" rel="stylesheet" />
+</head>
+<body>
+	<section class="row">
+		<div class="col-100 all">
+			<div class="col-40 othoni">
+				<span><span style="color:#d77643;">Calcu</span>lator</span>
+			</div>
+			<div class="col-40 calc">
+				<span>
+					<h1 id="number"></h1>
+				</span>
+			</div>
+			<div class="col-40 main">
+				<table>
+					<tr>
+						<td>
+							<button onclick="tis100()">%</button>
+						</td>
+						<td>
+							<button>(</button>
+						</td>
+						<td>
+							<button>)</button>
+						</td>
+						<td class="light">
+							<button class="bluelight" onclick="dia()">/</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick="n7()">7</button>
+						</td>
+						<td>
+							<button onclick="n8()">8</button>
+						</td>
+						<td>
+							<button onclick="n9()">9</button>
+						</td>
+						<td class="light">
+							<button class="bluelight" onclick="epi()">x</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick="n4()">4</button>
+						</td>
+						<td>
+							<button onclick="n5()">5</button>
+						</td>
+						<td>
+							<button onclick="n6()">6</button>
+						</td>
+						<td class="light">
+							<button class="bluelight" onclick="sub()">-</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick="n1()">1</button>
+						</td>
+						<td>
+							<button onclick="n2()">2</button>
+						</td>
+						<td>
+							<button onclick="n3()">3</button>
+						</td>
+						<td class="light">
+							<button class="bluelight" onclick="add()">+</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick="C()">C</button>
+						</td>
+						<td>
+							<button onclick="n0()">0</button>
+						</td>
+						<td>
+							<button onclick="dot()">.</button>
+						</td>
+						<td class="light">
+							<button class="bluelight" style="background-color:#d77643;" onclick="ison()">=</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<script src="js/app.js"></script>
+	</section>
+</body>
+</html>

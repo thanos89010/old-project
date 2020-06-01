@@ -1,0 +1,87 @@
+body{
+    background-image: url(../images/hangan.jfif);
+    
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+
+.conteiner{
+display: flex;
+justify-content: center;
+
+
+}
+.li-char{
+    display: Flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 51px;
+    padding: 4px 25px;
+    border: 2px white solid;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 8px;
+    width: 46px;
+    height: 67px;
+    background: white;
+}
+
+.li-fail-char{
+    display: Flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 51px;
+    padding: 4px 25px;
+    border: 2px white solid;
+     margin: 5px;
+     color: white;
+
+
+
+}
+.li-char:hover{
+    background: none;
+    color: white;
+  
+}
+.li-char:active{
+    background: none;
+    transform: scale(0.8);
+    color: white;
+}
+
+.ul-char{
+    display:Flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.leksi{
+    color: white;
+    padding: 25px;
+    font-size: 50px;
+}
+
+.ul-hint{
+    display:flex;
+    justify-content: center;
+    width: 80%;
+
+   
+}
+.conteiner-hint{
+    display:flex;
+    justify-content: center;
+   
+}
+.li-hint{
+    flex: 1;
+    border: solid 1px orange;
+    
+    
+}
+
+.pointer-events{
+    pointer-events: none;
+}
+

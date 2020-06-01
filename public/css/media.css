@@ -1,0 +1,37 @@
+
+            .productStileboxItemConteiner{
+                width: 100%;
+                max-width: 1000px;
+                margin: 30px auto 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .bproductStileboxItemConteinerox {
+                height: 200px;
+                flex-basis: 25%;
+                flex-grow: 1;
+            }
+
+
+
+            /* small laptops or desktops */
+            @media (max-width: 900px) {
+                
+                .productStileboxItemConteiner { width: 33.3333333%; }
+
+
+            }
+
+            /* Tablets */
+            @media (max-width: 680px) {
+
+                .productStileboxItemConteiner { flex-basis: 50%; }
+
+            }
+
+            /* Mobile Phones */
+            @media (max-width: 460px) {
+
+                .productStileboxItemConteiner { flex-basis: 100%; }
+
+            }

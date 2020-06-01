@@ -1,0 +1,705 @@
+
+.phone-top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.phone-top-conteiner{
+    display:flex;
+    width: 80%;
+    margin-top:30px;
+
+}
+
+.phone-left{
+    display:flex;
+    flex-direction: column;  
+    flex:3;
+}
+.phone-right{
+    display:flex;
+    flex-direction: column;  
+    flex:1;
+    padding-left: 20px;
+
+}
+/*eikona slider*/
+.phone-main{
+    display:flex;
+    flex-direction: column; 
+    background: white;
+    height: 730px;
+    align-items: center;
+    box-shadow: 0 1px 8px -4px #000;
+    border-radius: 5px;
+
+
+
+}
+.phone-main-top{
+    display:flex;
+    width: 98%;
+    margin-top: 15px;
+}
+.phone-icon{
+    flex:1.8;
+    height: 450px;
+   
+
+}
+.phone-info{
+    flex:1;
+}
+
+.phone-slider{
+    display:flex;
+    border: solid 3px rgba(128, 128, 128, 0.137);
+    position: relative;
+    height: 328px;
+    align-items: center;
+
+}
+.phone-icon-box{
+    
+    flex:1;
+    margin:5px 10px;
+    
+    
+}
+.phone-icon-box img{
+    border:rgba(128, 128, 128, 0.171) solid 3px;
+    width: 63px;
+    height: 46px;
+    cursor: pointer;
+
+}
+.phone-icon-box img:hover,.acti{
+    border:rgb(255, 118, 6) solid 3px;
+
+
+}
+.phone-main-icon{
+    text-align: left;
+    flex:1;
+}
+.phone-main-icon img{
+    width: auto;
+    height: 300px;
+
+}
+.phone-slider span::after{
+    display: Flex;
+    justify-content: center;
+    align-items: center;
+    content: "-28% offer";
+    background: #eee809;
+
+    padding: 28px;
+    height: 15px;
+    border-radius: 50%;
+    width: 15px;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-family: 'Comfortaa',cursive;
+    font-weight: bold;
+    font-size:20px;
+    box-shadow: 2px 1px 6px #aaa;
+   
+}
+
+/*plirofories kinitou*/
+.phone-info{
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    padding: 0px 16px;
+
+
+}
+.phone-info h1{
+   margin: 0;
+   padding: 0;
+   font-size:20px;
+   border-bottom: solid 1px rgba(0, 0, 0, 0.164);
+   padding-bottom: 30px;
+   font-family: 'Comfortaa',cursive;
+
+}
+.phone-info p {
+   margin: 0;
+   padding: 0;
+   font-size:13px;
+   font-family: 'Open Sans', sans-serif;
+
+
+}
+.phone-info div:last-child p{
+background:#4267b2;
+display:inline-flex;
+padding:1px 18px;
+color:white;
+border-radius: 4px;
+cursor: pointer;
+font-weight: 700;
+
+}
+
+.phone-info div:last-child {
+
+    border-top: solid 1px rgba(0, 0, 0, 0.164);
+    padding-top: 30px;
+ }
+/*agkiisei*/
+ .phone-extra{
+     display:flex;
+     flex-direction: column;
+     width: 95%;
+     
+     
+    
+ }
+ .phone-extra-box{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     border: 1px solid #cecece;    
+     border-radius: 6px;
+     background: #f0f0f0;
+
+
+ }
+ .phone-extra-box img{
+     height: auto;
+     width: 150px;
+    
+ }
+ .phone-extra-box p{
+    margin: 0;
+    padding: 2px;;
+    font-size:15px;
+  
+    
+ }
+
+
+ .phone-extra-box p:last-child {
+     margin-top:5px;
+   padding:25px 0 0;
+   background: white;
+   width: 100%;
+   text-align: right;
+   border: 1px solid #cecece;
+   border-bottom: none;
+   color:orangered;
+   font-size:23px;
+   font-weight: bold;
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 6px;
+   
+
+}
+
+/*down  plirofories mi8*/
+.phone-tabs{
+    margin:30px 0;
+    display:flex;
+    flex-direction: column; 
+    background: white;
+    *height: 730px;
+    align-items: center;
+    box-shadow: 0 1px 8px -4px #000;
+    font-family: 'Open Sans',Arial;
+    border-radius: 5px;
+
+
+}
+
+.phone-tabs-info{
+    display:flex;
+    width: 97%;
+    height: 80px;
+    align-items: center;
+}
+.phone-tabs-info span{
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 19px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  background: #edf2f5;
+  color: #242323;
+  
+
+}
+.phone-tabs-info span:hover{
+    background: #f15a22;
+    color: #fff;
+
+}
+
+.phone-tabs1{
+    display:Flex;
+    flex-direction: column;
+     width: 93%;
+
+}
+.phone-tabs1-info{
+    display:flex;
+    flex-direction: column;
+    *height: 700px;
+    *background: red;
+    width: 97%
+   
+}
+.phone-tabs-info-conteiner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.phone-tabs-info-box{
+    display:flex;
+    width: 93%;
+    height: 50px;
+    
+}
+.phone-tabs-info-box p:first-child{
+    flex:1;
+     padding-left: 20px;
+     font-family: 'Open Sans',sans-serif;
+     font-size: 14px !important;
+     font-weight: 600;
+}
+.phone-tabs-info-box p:last-child{
+    flex:1;
+    font-size: 13px;
+    font-weight: 400;
+}
+.phone-tabs-info-box:nth-child(odd){
+    background: #eef2f5;
+   
+}
+.phone-tabs-info-box:nth-child(even){
+ 
+    
+
+}
+
+.phone-tabs-top{
+    display:Flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.phone-tabs-top-box1{
+    display:Flex;
+
+
+}
+.phone-tabs-top-info h2{
+    font-size: 24px !important;
+    font-family: 'Comfortaa';
+    font-weight: 800;
+    line-height: 21px;
+    margin: 0;
+    background: #fff;
+    margin: 0 0 25px;
+    padding: 20px 0;
+    letter-spacing: -1px;
+    flex:1;
+    display: inline-block;
+}
+.line{
+    margin-left: 15px;
+    display:inline-block;
+    width: 50%;
+    background: #edf2f5;
+    height: 10px;
+
+}
+.phone-tabs-top-info p{
+    color: #282828;
+    font-size: 13px;
+    line-height: 20px;
+    flex:1;
+    padding-right: 20px;
+}
+.phone-tabs-top-icon{
+    flex:1;
+
+}
+.phone-tabs-icon-down{
+    width: 80%;
+   
+}
+
+.phone-tabs-top-box2{
+    display:flex;
+    width: 100%;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top:25px;
+}
+.phone-tabs-top-box2 p {
+    margin: 1px;
+    padding: 6px;
+}
+.phone-tabs-box2-left{
+    display:flex;
+    flex:1;
+}
+.phone-tabs-box2-left p:first-child::before{
+    content: "\f3cd";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color:orangered;
+    font-size:20px;
+    padding: 0 8px;
+
+
+   
+}
+.phone-tabs-box2-left p:nth-child(2)::before{
+    content: "\f110";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color:orangered;
+    font-size:23px;
+    padding: 0 8px;
+}
+.phone-tabs-box2-left p:last-child::before{
+    content: "\f7c2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color:orangered;
+    font-size:23px;
+    padding: 0 8px;
+}
+.phone-tabs-box2-right {
+display:flex;
+
+}
+.phone-tabs-box2-right img {
+    margin: -12px 0px;
+
+
+}
+
+.phone-tabs-middle{
+    display:flex;
+    flex-direction: column;
+}
+.phone-tabs-middle-odd{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+.phone-tabs-middle-odd-box{
+    display:flex;
+
+
+}
+.phone-tabs-middle-even{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+.phone-tabs-middle-even-box{
+    display:flex;
+
+
+}
+.phone-tabs-middle-odd-icon{
+flex:1;
+}
+.phone-tabs-middle-odd-info{
+flex:2;
+}
+.phone-tabs-middle-even-icon{
+flex:1;
+text-align: center;
+}
+.phone-tabs-middle-even-info{
+flex:1;
+}
+
+.phone-tabs-middle h2{
+    font-size: 24px !important;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    line-height: 21px;
+    display: inline-block;
+    letter-spacing: -1px;
+}
+.phone-tabs-middle h3{
+    color: #161616;
+    font-size: 18px;
+    font-weight:bold;
+}
+.phone-tabs-middle p{
+    color: #282828;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.phone-tabs-down{
+    display:flex;
+    flex-direction: column;
+
+}
+.phone-tabs-down{
+    display:flex;
+    flex-direction: column;
+
+}
+.phone-tabs-down-box{
+    display:flex;
+    
+
+}
+.phone-tabs-down-box h2{
+    font-size: 24px !important;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    line-height: 21px;
+    display: inline-block;
+    letter-spacing: -1px;
+    
+    
+
+}
+.phone-tabs-down-box{
+    margin-top:30px;
+}
+.phone-tabs-down-info p{
+    color: #181818;
+    font-size: 14px;
+}
+.phone-tabs-down-bars img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*rigth */
+
+.phone-sidebar{
+    display:flex;
+    flex-direction: column;
+    background: white;
+    height: 370px;
+    box-shadow: 0 1px 8px -4px #000;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans',sans-serif;
+    border-radius: 5px;
+
+
+}
+.phone-sidebar-box{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    border-bottom: rgba(128, 128, 128, 0.356) solid 1px;
+
+}
+.phone-sidebar-box:nth-child(3n){
+   
+    align-items: center;
+   
+
+}
+.phone-sidebar-box:last-child{
+    
+    border:none;
+
+}
+.phone-sidebar-price{
+    display:flex;
+
+
+}
+.phone-sidebar-price-big{
+    flex:1.2;
+    font-weight: 900;
+    padding-left: 0;
+    font-size: 36px;
+    color: #f15a22;
+    line-height: 33px;
+    display:flex;
+    align-items: center;
+  
+}
+
+
+.phone-sidebar-price-old{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+
+}
+.phone-sidebar-price-old span:first-child{
+    color: #aaa;
+    font-size: 13px;
+    text-decoration: line-through;
+    text-transform: lowercase;
+
+}
+.phone-sidebar-price-old span:last-child{
+    color: #24a285;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+.phone-sidebar-doseis{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.phone-sidebar-button{
+    display:flex;
+    justify-content: center;
+    background: #f15a22;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+
+
+}
+.phone-sidebar-button a{
+    text-decoration: none;
+
+
+}
+.phone-sidebar-button span{
+    padding: 15px;
+    color:white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Comfortaa';
+
+}
+.phone-sidebar-button::before{
+    content: "\f07a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding:15px 0;
+    font-size: 23px;
+    color:white;
+
+}
+.phone-sidebar-diathesimo{
+    display:flex;
+    justify-content: center;
+    color: #4c4c4c;
+    font-weight: bold;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+  
+}
+.phone-sidebar-diathesimo span::before{
+    content: "\f1d8";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 3px;
+    font-size:12px;
+    color: grey;
+
+
+}
+.phone-sidebar-diathesimo span::after{
+    content: "\f05a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 8px;
+    font-size:14px;
+    color: #f15a22;
+}
+.phone-sidebar-location span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: black;
+    display: flex;
+    align-items: center;
+    ;
+}
+.phone-sidebar-location span::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 25px;
+    color: #4c4c4c;
+    padding-right: 10px;
+}
+.phone-sidebar-choose span{
+    color: #1471aa;
+    cursor: pointer;
+    font-size:15px;
+   
+}
+.phone-sidebar-choose {
+    padding-bottom: 10px;
+   
+   
+}
+
+.phone-sidebar-choose span:hover{
+    color: #0a476d;
+    text-decoration: underline;
+}
+.phone-sidebar-delivery span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+.phone-sidebar-delivery span::before{
+    content: "\f015";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 25px;
+    color: #4c4c4c;
+    padding-right: 7px;
+    padding-left: 12px;
+}
+
+.phone-sidebar-days span:first-child {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+}
+.phone-sidebar-days:last-child {
+    text-align: center;
+    color: #49ac94;
+    font-weight: 400;
+    
+
+
+}
+.phone-sidebar{
+    position: sticky;
+    top: 2px;
+
+}
+
